@@ -93,7 +93,7 @@ nav a {
 #LeaveMessage form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     max-width: 400px;
 }
 
@@ -101,18 +101,25 @@ nav a {
 #LeaveMessage textarea {
     padding: 10px;
     font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#LeaveMessage textarea {
+    min-height: 1000x;
 }
 
 #LeaveMessage button {
-    padding: 10px 15px;
+    padding: 12px 18px;
     font-size: 16px;
     width: fit-content;
 }
 
-#messages li {
-    margin-bottom: 10px;
-}
-
-#messages button {
-    margin-left: 10px;
+@media (max-width: 600px) {
+    #LeaveMessage form {
+        max-width: 100%;
+    }
+     #LeaveMessage button {
+        width: 100%;
+     }
 }
