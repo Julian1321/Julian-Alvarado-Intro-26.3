@@ -1,0 +1,118 @@
+body {
+    background-color: greenyellow;
+    color:maroon;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:blueviolet;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color:blueviolet;
+}
+
+section {
+    margin: 30px;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    background-color: blueviolet;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12 px;
+    font-weight: bold;
+}
+
+#About {
+    text-align: center;
+}
+
+#Experience ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
+
+#Experience li {
+    list-style: none;
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    flex: 1 1 200px;
+}
+
+#Connect ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+#Connect li {
+    list-style: none;
+}
+
+#Connect a {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+#Skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+}
+
+#Skills li {
+    list-style: none;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#LeaveMessage form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+#LeaveMessage input,
+#LeaveMessage textarea {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#LeaveMessage button {
+    padding: 10px 15px;
+    font-size: 16px;
+    width: fit-content;
+}
+
+#messages li {
+    margin-bottom: 10px;
+}
+
+#messages button {
+    margin-left: 10px;
+}
