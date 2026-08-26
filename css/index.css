@@ -90,36 +90,50 @@ nav a {
     border-radius: 10px;
 }
 
-#LeaveMessage form {
+#leave-message form {
     display: flex;
     flex-direction: column;
     gap: 12px;
     max-width: 400px;
 }
 
-#LeaveMessage input,
-#LeaveMessage textarea {
+#leave-message input,
+#Lleave-message textarea {
     padding: 10px;
     font-size: 16px;
     width: 100%;
     box-sizing: border-box;
 }
 
-#LeaveMessage textarea {
+#leave-message textarea {
     min-height: 100x;
 }
 
-#LeaveMessage button {
+#leave-message button {
     padding: 12px 18px;
     font-size: 16px;
+    min-height: 44px;
     width: fit-content;
 }
 
+#messages li {
+    margin-bottom: 12px;
+}
+
+#messages span {
+    margin-left: 8px;
+}
+
+#messages button {
+    margin-left: 10px;
+    padding: 6px 10px;
+}
+
 @media (max-width: 600px) {
-    #LeaveMessage form {
+    #leave-message form {
         max-width: 100%;
     }
-     #LeaveMessage button {
+     #leave-message button {
         width: 100%;
      }
 }
