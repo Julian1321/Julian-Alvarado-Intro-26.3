@@ -1,0 +1,139 @@
+body {
+    background-color: greenyellow;
+    color:maroon;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:blueviolet;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color:blueviolet;
+}
+
+section {
+    margin: 30px;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    background-color: blueviolet;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12 px;
+    font-weight: bold;
+}
+
+#About {
+    text-align: center;
+}
+
+#Experience ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
+
+#Experience li {
+    list-style: none;
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    flex: 1 1 200px;
+}
+
+#Connect ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+#Connect li {
+    list-style: none;
+}
+
+#Connect a {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+#Skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+}
+
+#Skills li {
+    list-style: none;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#leave-message form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+}
+
+#leave-message input,
+#Lleave-message textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#leave-message textarea {
+    min-height: 100x;
+}
+
+#leave-message button {
+    padding: 12px 18px;
+    font-size: 16px;
+    min-height: 44px;
+    width: fit-content;
+}
+
+#messages li {
+    margin-bottom: 12px;
+}
+
+#messages span {
+    margin-left: 8px;
+}
+
+#messages button {
+    margin-left: 10px;
+    padding: 6px 10px;
+}
+
+@media (max-width: 600px) {
+    #leave-message form {
+        max-width: 100%;
+    }
+     #leave-message button {
+        width: 100%;
+     }
+}
