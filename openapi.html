@@ -23,20 +23,17 @@
     <main>
         <h1>Manchester vs. Chicago Weather</h1>
 
-        <p>
-            Compare the current weather in Manchester, UK and Chicago, Illinois.
-        </p>
+        <p>Select an option to compare the current weather in Manchester, UK and Chicago, Illinois.
 
-        <section id="manchester">
-            <h2>Manchester</h2>
-            <p id="manchester-temperature"> Loading temperature...</p>
-            <p id="manchester-weather">Loading weather</p>
-        </section>
+        <div class="weather-navigation">
+            <button id="temperature-button">Temperature Comparison</button>
+            <button id="conditions-button">Weather Conditions Comparison</button>
+        </div>
 
-        <section id="chicago">
-            <h2>Chicago</h2>
-            <p id="chicago-temperature"> Loading temperature...</p>
-            <p id="chicago-weather">Loading weather</p>
+        <section id="weather-results">
+            <h2 id="weather-heading">Weather Comparison</h2>
+            <p id="manchester-result">Choose an option above.</p>
+            <p id="chicago-result"></p>
         </section>
     </main>
 
