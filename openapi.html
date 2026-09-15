@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-wdith, initial-scale=1.0">
+
+    <title>Manchester vs Chicago Weather</title>
+
+    <link rel="stylesheet" href="css/openapi.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Manchester vs. Chicago Weather</h1>
+
+        <p>Select an option to compare the current weather in Manchester, UK and Chicago, Illinois.
+
+        <div class="weather-navigation">
+            <button id="temperature-button">Temperature Comparison</button>
+            <button id="conditions-button">Weather Conditions Comparison</button>
+        </div>
+
+        <section id="weather-results">
+            <h2 id="weather-heading">Weather Comparison</h2>
+            <p id="manchester-result">Choose an option above.</p>
+            <p id="chicago-result"></p>
+        </section>
+    </main>
+
+    <script src="js/openapi.js"></script>
+    
+</body>
+</html>
